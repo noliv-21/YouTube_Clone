@@ -161,7 +161,7 @@ input{
 }
 #menu{
   width:240px;
-  height: 655px;
+  height: 100vh;
   padding-left: 13px;
   padding-top: 13px;
   float:left;
