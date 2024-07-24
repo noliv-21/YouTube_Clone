@@ -356,18 +356,25 @@ hr{
   display: block;
   margin:0 auto; /* Center the video */
   position:relative;
+  overflow:hidden;
+  display:flex;
+  justify-content: flex-end;
+  flex-direction: column;
 }
 .time{
   position:absolute;
   background-color: #000;
   opacity:.8;
-  top:194px;
-  left:350px;
+  /*top:194px;
+  left:345px;*/
   color:white;
   border:.5px transparent;
   border-radius: 5px;
   font-size:15px;
   padding:1px 5px;
+  margin-right:5px;
+  margin-bottom: 5px;
+  align-self: flex-end;
 }
 .vid-channels_logo{
   border:none;
