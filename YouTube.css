@@ -161,7 +161,7 @@ input{
 }
 #menu{
   width:240px;
-  height: 100vh;
+  height: 93vh;
   padding-left: 13px;
   padding-top: 13px;
   float:left;
@@ -344,7 +344,7 @@ hr{
 }
 .VidSpace{
   width:400px;
-  height:330px;
+  height:310px;
   padding-right: 19px;
   float:left;
 }
