@@ -165,7 +165,6 @@ input{
   display:flex;
   flex-direction: column;
   overflow: hidden;
-  position:fixed;
 }
 #menu:hover{
   overflow-y:auto;
