@@ -6,7 +6,6 @@ input{
   outline-color: #1b60b2;
 }
 .container{
-    background:#0f0f0f;
     width:100%;
 }
 .header{
@@ -14,7 +13,6 @@ input{
     height:56px;
 }
 .start{
-    padding-left:0px;
     float:left;
     height:56px;
     width:460px;
@@ -36,7 +34,6 @@ input{
 .ytlogo{
     width: 20%; /* Adjusts image width to container */
     height: auto; /* Maintains aspect ratio */
-    display:block; /* Removes default margin */
     padding-left:30px;
     padding-top:25px;
     float:left;
@@ -161,13 +158,14 @@ input{
 }
 #menu{
   width:240px;
-  height: 93vh;
+  height: 90vh;
   padding-left: 13px;
   padding-top: 13px;
   float:left;
   display:flex;
   flex-direction: column;
   overflow: hidden;
+  position:fixed;
 }
 #menu:hover{
   overflow-y:auto;
